@@ -18,6 +18,27 @@
 <main class="content">
   <h1>Welcome Page</h1>
   <p>Lorem ipsum dolor sit amet, consectetur </p>
+  <div class="flex-container">
+<div class="img">
+<img src="../src/assets/pic1.webp" alt="image" class="img1">
+</div>
+
+<div class="img">
+<img src="../src/assets/pic3.webp" alt="image" class="img2">
+</div>
+<div class="img">
+<img src="../src/assets/pic5.webp" alt="image" class="img3">
+</div>
+<div class="img">
+<img src="../src/assets/pic6.webp" alt="image" class="img4">
+</div>
+<div class="img">
+<img src="../src/assets/pic6.webp" alt="image" class="img4">
+</div>
+<div class="img">
+<img src="../src/assets/pic6.webp" alt="image" class="img4">
+</div>
+</div>
   </main>
     </div>
   </body>
@@ -58,7 +79,20 @@ export default {
 	display: flex;
 	min-height: 100vh;
 }
+.flex-container{
+display:flex ;
+flex-wrap: wrap;
+justify-content: center;
+ align-items: center;
+}
 
+.img1,.img2,.img3,.img4,.img5,.img6{
+	width: 10rem;
+    height: 8rem;
+    padding: 0rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
 .menu-toggle {
 	display: none;
 	position: fixed;
